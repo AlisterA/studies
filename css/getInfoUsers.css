@@ -1,0 +1,45 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+
+.right
+{
+    float: right;
+}
+
+.left
+{
+    float: left;
+}
+
+.clear
+{
+   clear: both;
+}
+
+.button
+{   display: block;
+    background: #68A64C;
+	color: #FFFFFF;
+	border: 1px solid #3B6E22;
+	width: 112px;
+	height: 30px;
+	margin-top: 15px;
+}
+
+.general
+{
+    width: 230px;
+	height: 70px;
+	background: linear-gradient(to top, #DEE2EE, #FDFEFE);
+	font-family: Tahoma;
+	font-size:14px;
+	color: #0E385F;
+	padding: 20px 20px 20px 20px;
+	margin: 50px auto;
+	
+}
+
+

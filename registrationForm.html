@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link  rel="stylesheet" href="css/style.css"/>
+    <title>Форма регистрации</title>
+	
+  </head>
+  <body>
+    <form action = "registration.php" method = "POST" enctype="multipart/form-data">
+      
+	  <div class="main">
+	  <div class="header">
+        <h3>Sign Up</h3>
+        <span>It's free and always will be.</span>
+	  </div>
+      <!--<form id="regForm" action="submit.php" method="post">-->
+      <table class="right">
+        <tbody>
+          <tr>
+            <td class="text_right"><label>First Name:</label></td>
+            <td>
+			  <div >
+                <input name="first_name" id="fname" type="text"  class="input_field option1"/>
+              </div>
+			</td>
+          </tr>
+          <tr>
+            <td class="text_right"><label>Last Name:</label></td>
+            <td>
+			  <div>
+                <input name="last_name" id="last_name" type="text" class="input_field option1"/>
+              </div>
+			</td>
+          </tr>
+          <tr>
+            <td class="text_right"><label>Your Email:</label></td>
+            <td>
+			  <div>
+                <input name="email" id="email" type="text" class="input_field option1"/>
+              </div>
+		    </td>
+          </tr>
+          <tr>
+            <td class="text_right"><label>New Password:</label></td>
+            <td>
+			  <div>
+                <input name="password" id="password" type="password" class="input_field option1"/>
+              </div>
+			</td>
+          </tr>
+          <tr>
+            <td class="text_right"><label>I am:</label></td>
+            <td>
+              <div>
+                <select name="select_sex" id="select_sex" class="input_field option2">
+                  <option value="0">Select Sex:</option>
+                  <option value="Female">Female</option>
+                  <option value="Male">Male</option>
+                </select>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="text_right"><label>Birthday:</label></td>
+            <td>
+              <div>
+                <select name="month" class="input_field optionMonth">
+                  <option value="0">Month:</option>
+                  <?php $str?>
+                </select>
+                <select name="day" class="input_field optionDay">
+                  <option value="0">Day:</option>
+
+                </select>
+                <select name="year" class="input_field optionYear">
+                  <option value="0">Year:</option>
+                  <?php
+                    for($year = 1920; $year <= 2014; $year++)
+					{
+                      echo "<option value=\"{$year}\">{$year}</option>"; 
+                    }
+				  ?>
+                </select>
+              </div>
+            </td>
+          </tr>
+          <tr>
+		    <td></td>
+			<td class="option3">Why do I need to privide this?</td>
+		  </tr>
+		  <tr>
+		    <td></td>
+			<td><input type="button" class="button" value="Sign Up"/></td>
+		  </tr>
+	    </tbody>
+	  </table>
+	 
+	  </div>
+    </form>
+  </body>
+</html>

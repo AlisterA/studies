@@ -1,0 +1,124 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+
+.right
+{
+    float: right;
+}
+
+.left
+{
+    float: left;
+}
+
+.clear
+{
+   clear: both;
+}
+
+.main
+{
+    width: 375px;
+	height: 370px;
+	background: linear-gradient(to top, #DEE2EE, #FDFEFE);
+	font-family: Tahoma;
+	font-size:14px;
+	color: #0E385F;
+	padding: 7px 10px 5px 3px;
+	margin: 0 auto;
+}
+
+.header
+{
+   border-bottom: 1px solid #96A6C5;
+   padding-left: 10px;
+   padding-bottom: 11px;
+   margin-bottom: 11px;
+}
+
+h2
+{
+    margin-bottom: 2px;
+}
+
+.text_right
+{
+    text-align: right;
+	position: relative;
+	bottom: 2px;
+}
+
+.input_field
+{
+    color: #000000;
+	background: #FFFFFF;
+	border: 1px solid #96A6C5;
+	margin-bottom: 3px;
+	padding: 1px 0px 3px 5px;
+}
+
+.option1
+{
+	width: 258px;
+	height: 25px;
+}
+
+.option3
+{
+	height: 12px;
+	font-size: 11px;
+	color: #3B5998;	
+}
+
+.option2
+{
+    height: 28px;
+	overflow: hidden;
+	margin-right: 3px;
+	border: 1px solid #96A6C5;
+}
+
+.button
+{
+    background: #68A64C;
+	color: #FFFFFF;
+	border: 1px solid #3B6E22;
+	width: 112px;
+	height: 30px;
+	margin-top: 5px;
+}
+
+.select_style 
+{
+    background: transparent;
+    padding: 5px 0px 0px 3px; 
+    border: none;
+}
+
+.pointer
+{
+    width: 100px;
+    background: url("../images/select.png") no-repeat 79px 7px #FFFFFF;
+	margin-bottom: 3px;
+}
+
+.pointer1
+{
+    width: 73px;
+    background: url("../images/select.png") no-repeat 54px 7px #FFFFFF;
+}
+
+.pointer2
+{
+    width: 60px;
+    background: url("../images/select.png") no-repeat 39px 7px #FFFFFF;
+}
+
+.pointer3
+{
+    width: 67px;    
+    background: url("../images/select.png") no-repeat 46px 7px #FFFFFF;
+}

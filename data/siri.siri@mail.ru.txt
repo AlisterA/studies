@@ -1,0 +1,7 @@
+First name: Lena
+Last name: Protasova
+Email: siri.siri@mail.ru
+Re-enter Email: siri.siri@mail.ru
+Password: 123456
+Select Sex: Female
+Birthday: 19 Oct 1989
